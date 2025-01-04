@@ -1,0 +1,1 @@
+{"name":"Local: J copy","url":"/home/chiyoyuki/codes/xcpc/train/20241201/J copy.cpp","tests":[{"id":1733040752256,"input":"3\n1 1 2\n4 2 5\n10086 114 514","output":"500000004\n815744006\n831515095"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/train/20241201/J copy.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: D","url":"/home/chiyoyuki/codes/xcpc/at/abc379/D.cpp","tests":[{"id":1731155819901,"input":"15\n1\n1\n2 226069413\n3 1\n1\n1\n2 214168203\n1\n3 214168203\n1\n1\n1\n2 314506461\n2 245642315\n3 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/at/abc379/D.cpp","group":"local","local":true}

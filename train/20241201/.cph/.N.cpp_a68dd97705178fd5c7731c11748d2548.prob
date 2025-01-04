@@ -1,0 +1,1 @@
+{"name":"Local: N","url":"/home/chiyoyuki/codes/xcpc/train/20241201/N.cpp","tests":[{"id":1733031529068,"input":"7\nKeqing 1\nLuoXuan 321\nXianYa 333\nXuFeichi 233\nCZY 777\nPangXiang 888\nMarkMax 1000","output":"MarkMax"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/train/20241201/N.cpp","group":"local","local":true}

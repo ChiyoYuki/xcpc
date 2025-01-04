@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"/home/chiyoyuki/codes/xcpc/train/20241201/E.cpp","tests":[{"id":1733032016011,"input":"1","output":"1"},{"id":1733032019145,"input":"3","output":"0\n1 2 3\n2 3 1\n3 1 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/train/20241201/E.cpp","group":"local","local":true}

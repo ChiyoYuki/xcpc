@@ -1,0 +1,1 @@
+{"name":"Local: h","url":"/home/chiyoyuki/codes/xcpc/cf/2003/h.cpp","tests":[{"id":1736270386707,"input":"2\n5 5\n1 2 3 4 5\n1\n2\n3\n4\n5\n6 3\n1 2 6 4 1 3\n2\n1\n5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/cf/2003/h.cpp","group":"local","local":true}

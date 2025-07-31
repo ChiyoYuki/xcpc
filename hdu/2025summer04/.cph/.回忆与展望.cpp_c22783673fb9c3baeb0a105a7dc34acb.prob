@@ -1,0 +1,1 @@
+{"name":"Local: 回忆与展望","url":"/home/chiyoyuki/codes/xcpc/hdu/2025summer04/回忆与展望.cpp","tests":[{"id":1753677945394,"input":"2\n10 1919810 114514 1\n2 3 5 9 10 10 2 2 5 4\n\n5 9 7 5\n3 1 2 3 4","output":"43\n15472995"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/hdu/2025summer04/回忆与展望.cpp","group":"local","local":true}

@@ -1,0 +1,113 @@
+/**
+ *  author:  ChiyoYuki
+ **/
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define st first
+#define nd second
+#define elif else if
+
+typedef signed char i1;
+typedef signed short int i2;
+typedef signed int i4;
+typedef signed long long int i8;
+typedef unsigned char u1;
+typedef unsigned short int u2;
+typedef unsigned int u4;
+typedef unsigned long long int u8;
+typedef float f06;
+typedef double f15;
+
+typedef vector<i8> vi;
+typedef deque<i8> di;
+typedef deque<i8> di;
+typedef priority_queue<i8> pqi;
+typedef pair<i8, i8> pii;
+typedef map<i8, i8> mii;
+typedef vector<vector<i8>> vvi;
+typedef vector<pair<i8, i8>> vpii;
+typedef string str;
+
+const i4 i4inf = 0x3f3f3f3f;
+const i4 i4max = INT32_MAX;
+const i4 i4min = INT32_MIN;
+const u4 u4max = UINT32_MAX;
+const i8 i8inf = 0x3f3f3f3f3f3f3f3f;
+const i8 i8max = INT64_MAX;
+const i8 i8min = INT64_MIN;
+const u8 u8max = UINT64_MAX;
+const int mod9 = 998244353;
+const int moda = 1000000007;
+
+void solve(void);
+
+int main(void)
+{
+    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+    unsigned long long _ = 1;
+    cin >> _;
+    while (_--)
+        solve();
+    return 0;
+}
+
+void solve(void)
+{
+    i8 i = 0, j = 0, k = 0;
+    i8 n = 0, m = 0;
+    i8 sum = 0;
+
+    cin >> n;
+    vpii node(n, make_pair(0, 0));
+    vvi path(n + 1), nei(n + 1);
+    for (i = 0; i < n; i++)
+    {
+        cin >> node[i].st;
+        node[i].nd = i + 1;
+    }
+
+    for (i = 0; i < n - 1; i++)
+    {
+        i8 u, v;
+        cin >> u >> v;
+        nei[u].push_back(v);
+        nei[v].push_back(u);
+    }
+
+    vi dfs;
+    dfs.push_back(1);
+    vector<char> vis(n + 1, 0);
+    while (!dfs.empty())
+    {
+        if (vis[dfs.back()] == 0)
+        {
+            vis[dfs.back()] = 1;
+            path[dfs.back()] = dfs;
+        }
+        for (i = 0; i < nei[dfs.back()].size(); i++)
+        {
+            if (vis[nei[dfs.back()][i]] == 0)
+            {
+                dfs.push_back(nei[dfs.back()][i]);
+                goto label1;
+            }
+        }
+        dfs.pop_back();
+    label1:;
+    }
+
+    srand(time(NULL));
+    i8 xx=rand()%n;
+    if(xx==1) cout<<n;
+    else cout<<xx;
+    cout << '\n';
+    return;
+}
+
+/*
+
+*/

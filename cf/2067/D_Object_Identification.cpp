@@ -1,0 +1,134 @@
+/**
+ *  author:  ChiyoYuki
+ **/
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define st first
+#define nd second
+#define elif else if
+
+typedef signed char i1;
+typedef signed short int i2;
+typedef signed int i4;
+typedef signed long long int i8;
+typedef unsigned char u1;
+typedef unsigned short int u2;
+typedef unsigned int u4;
+typedef unsigned long long int u8;
+typedef float f06;
+typedef double f15;
+
+typedef vector<i8> vi;
+typedef deque<i8> di;
+typedef deque<i8> di;
+typedef priority_queue<i8> pqi;
+typedef pair<i8, i8> pii;
+typedef map<i8, i8> mii;
+typedef vector<vector<i8>> vvi;
+typedef vector<pair<i8, i8>> vpii;
+typedef string str;
+
+const i4 i4inf = 0x3f3f3f3f;
+const i4 i4max = INT32_MAX;
+const i4 i4min = INT32_MIN;
+const u4 u4max = UINT32_MAX;
+const i8 i8inf = 0x3f3f3f3f3f3f3f3f;
+const i8 i8max = INT64_MAX;
+const i8 i8min = INT64_MIN;
+const u8 u8max = UINT64_MAX;
+const int mod9 = 998244353;
+const int moda = 1000000007;
+
+void solve(void);
+
+int main(void)
+{
+    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+    unsigned long long _ = 1;
+    cin >> _;
+    while (_--)
+        solve();
+    return 0;
+}
+
+void solve(void)
+{
+    i8 i = 0, j = 0;
+    i8 n = 0, m = 0;
+    i8 sum = 0;
+
+    cin >> n;
+    vi a(n + 1), b(n + 1, 0);
+    i8 mi, ma;
+    for (i = 1; i <= n; i++)
+    {
+        cin >> a[i];
+        b[a[i]]++;
+    }
+
+    i8 nh = -1;
+
+    for (i = 1; i <= n; i++)
+    {
+        if (b[i] == 0)
+        {
+            nh = i;
+            break;
+        }
+    }
+
+    if (nh != -1)
+    {
+        if (nh == 1)
+            cout << "? " << nh << " " << 2 << endl;
+        else
+            cout << "? " << nh << " " << 1 << endl;
+        cout.flush();
+        i8 ans;
+        cin >> ans;
+        if (ans == -1)
+            while (1)
+                ;
+        if (ans == 0)
+            cout << "! A" << endl;
+        else
+            cout << "! B" << endl;
+        cout.flush();
+    }
+
+    else
+    {
+        for (i = 1; i <= n; i++)
+        {
+            if (a[i] == 1)
+                mi = i;
+            else if (a[i] == n)
+                ma = i;
+        }
+        cout << "? " << mi << " " << ma << endl;
+        cout.flush();
+        i8 ans1, ans2;
+        cin >> ans1;
+        cout << "? " << ma << " " << mi << endl;
+        cout.flush();
+        cin >> ans2;
+        if (ans1 == -1 || ans2 == -1)
+            while (1)
+                ;
+        if (ans1 != ans2 || ans1 < n - 1 || ans2 < n - 1)
+            cout << "! A" << endl;
+        else
+            cout << "! B" << endl;
+        cout.flush();
+    }
+
+    return;
+}
+
+/*
+
+*/

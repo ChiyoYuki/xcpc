@@ -1,0 +1,1 @@
+{"name":"Local: 1006","url":"/home/chiyoyuki/codes/xcpc/hdu/2025summer01/1006.cpp","tests":[{"id":1752820201926,"input":"2\n2 2\n1 2\n3 4\n2 3\n1 5 4\n2 3 6","output":"17182633869\n34364347814"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/hdu/2025summer01/1006.cpp","group":"local","local":true}

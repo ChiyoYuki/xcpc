@@ -1,0 +1,1 @@
+{"name":"Local: 7","url":"/home/chiyoyuki/codes/xcpc/voj/2/7.cpp","tests":[{"id":1740552097300,"input":"1\n1 0 100","output":""},{"id":1740552177541,"input":"2\n1 0 100\n10 0 1100","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/voj/2/7.cpp","group":"local","local":true}

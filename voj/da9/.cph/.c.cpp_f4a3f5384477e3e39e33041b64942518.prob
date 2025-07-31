@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/home/chiyoyuki/codes/xcpc/voj/da9/c.cpp","tests":[{"id":1745546945557,"input":"3\n2 1\n3 3\n4 2\n0\n","output":"2 1\n3 2\n4 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/voj/da9/c.cpp","group":"local","local":true}

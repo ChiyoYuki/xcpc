@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/chiyoyuki/codes/xcpc/voj/da9/a.cpp","tests":[{"id":1745547998993,"input":"(11,LL) (7,LLL) (8,R)\n(5,) (4,L) (13,RL) (2,LLR) (1,RRR) (4,RR) ()\n(3,L) (4,R) ()","output":"5 4 8 11 13 4 7 2 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chiyoyuki/codes/xcpc/voj/da9/a.cpp","group":"local","local":true}
